@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Notes</title>
-  <link rel="stylesheet" href="style.css">
+    <title>Notes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <nav>
-  <a href="index.html">Home</a>
-  <a href="notes.html">Notes</a>
+    <a href="index.html">Home</a>
+    <a href="notes.html">Notes</a>
 </nav>
 
-<h2>My Notes</h2>
+<div class="container">
+    <h2>My Notes</h2>
+
+    <input type="text" id="noteInput" placeholder="Enter note">
+    <button onclick="addNote()">Add Note</button>
+
+    <ul id="notesList"></ul>
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
